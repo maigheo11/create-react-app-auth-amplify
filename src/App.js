@@ -48,7 +48,7 @@ class App extends Component {
                 <input type="text" id="fName">
                 <label>Last Name :</label>
                 <input type="text" id="lName">
-                <!-- set button onClick method to call function we defined passing input values as parameters -->
+                /*set button onClick method to call function we defined passing input values as parameters */
                 <button type="button" onclick="addNameToList(document.getElementById('fName').value,document.getElementById('lName').value)">Call API</button>
             </form>
         </body>
